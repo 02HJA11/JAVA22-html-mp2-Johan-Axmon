@@ -1,0 +1,39 @@
+/* .nav {
+    border: solid 2px black;
+} */
+
+body{
+    background-color: bisque;
+}
+
+.main-area{
+    border: solid 2px black;
+    width: auto;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu{
+    border: solid 2px yellow;
+display: flex;
+flex-direction: column;
+width: 75rem;
+align-items: center;
+margin-bottom: 10px;
+
+}
+
+.images{
+    border: solid 2px red;
+}
+footer{
+    border: solid 2px green;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+    width: 107rem;
+}
