@@ -19,6 +19,8 @@ body{
     border: solid 2px yellow;
 display: flex;
 flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
 width: 75rem;
 align-items: center;
 margin-bottom: 10px;
@@ -33,7 +35,13 @@ footer{
     height: 5rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    
     position: absolute;
     bottom: 0px;
-    width: 107rem;
+    width: 95rem;
+}
+
+.info {
+    color: black;
 }
